@@ -14,6 +14,13 @@ fn main() {
     const MAX_POINTS: u32 = 100_100;
     println!("The constants MAX_POINTS is: {}", MAX_POTINTS);
 
+    let s = 5;
+    
+    let s = s + 1;
+ 
+    let s = s * 2;
+
+    println!("The shadowing is: {}", s);
 
 
 }
