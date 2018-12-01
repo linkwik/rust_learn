@@ -11,6 +11,9 @@ fn main() {
     y = 10;
     println!("The value of y is: {}", y);
     
+    const MAX_POINTS: u32 = 100_100;
+    println!("The constants MAX_POINTS is: {}", MAX_POTINTS);
+
 
 
 }
