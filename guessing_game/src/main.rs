@@ -7,7 +7,14 @@ use std::cmp::Ordering;
 fn main() {
     let secret_number = rand::thread_rng().gen_range(0,101);
 
-    println!("Guess the number!");
+    println!("                                    _                 ");
+    println!("                                   (_)                ");
+    println!("  __ _   _   _    ___   ___   ___   _   _ __     __ _ ");
+    println!(" / _` | | | | |  / _ \\ / __| / __| | | | '_ \\   / _` |");
+    println!("| (_| | | |_| | |  __/ \\__ \\ \\__ \\ | | | | | | | (_| |");
+    println!(" \\__, |  \\__,_|  \\___| |___/ |___/ |_| |_| |_|  \\__, |");
+    println!("  __/ |                                          __/ |");
+    println!("|___/                                          |___/ ");
 
     loop {
         println!("Please input your guess.");
