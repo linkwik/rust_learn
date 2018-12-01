@@ -4,4 +4,13 @@ fn main() {
 
     // Error: cannot assign twice to immutable variable
     // x = 6;
+    
+    let mut y = 6;
+    println!("The value of y is: {}", y);
+
+    y = 10;
+    println!("The value of y is: {}", y);
+    
+
+
 }
