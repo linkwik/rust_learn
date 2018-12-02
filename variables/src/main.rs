@@ -12,7 +12,7 @@ fn main() {
     println!("The value of y is: {}", y);
     
     const MAX_POINTS: u32 = 100_100;
-    println!("The constants MAX_POINTS is: {}", MAX_POTINTS);
+    println!("The constants MAX_POINTS is: {}", MAX_POINTS);
 
     let s = 5;
     
